@@ -1,0 +1,65 @@
+// MongoDB Playground
+// To disable this template go to Settings | MongoDB | Use Default Template For Playground.
+// Make sure you are connected to enable completions and to be able to run a playground.
+// Use Ctrl+Space inside a snippet or a string literal to trigger completions.
+
+// Select the database to use.
+use('mongodbVSCodePlaygroundDB');
+
+// db.createCollection("test")
+
+// db.test.insert({
+//   name:"Mustafa",
+//   type:"Software"
+// })
+// db.test.insertMany([{
+//   name:"Ayşe", age:20
+// }])
+
+// db.test.insertMany([
+//   {name:"Ali", age:15},
+//   {name:"Ahmet", age:16}
+// ])
+
+// db.test.find()
+
+// db.test.find({age:16})
+
+// db.test.find({$or:[{name:"Ali"}, {age:18}]})
+
+// db.test.find({age: {$lt:20}})
+
+// db.test.find({age: {$lte:18}})
+
+// db.test.find({age: {$gt:15}})
+// db.test.find({age: {$gte:15}})
+
+// db.test.find({age: {$ne:15}})
+
+// db.test.find().sort({age: 1})
+// db.test.find().sort({age: -1})
+
+// db.test.find().limit(1)
+
+// db.test.findOne({age:15});
+
+// db.test.updateOne(
+//   {name:"Ali"},
+//   {
+//     $set:{
+//       name: "Enes",
+//       age: 23
+//     }
+//   }
+// )
+// db.test.find({name:"Enes"})
+
+// db.test.updateMany(
+//   {},
+//   {
+//     $rename: {
+//       name: "fullname"
+//     }
+//   }
+// )
+// db.test.deleteOne({age:15})
